@@ -152,6 +152,7 @@ TFid_to_meaning = {
 def visualize_camera_states(cameras, interval=10):
     def build_table():
         table = Table()
+        table.title = "camera state"
         table.add_column("Camera ID", justify="left")
         # table.add_column("IP:Port", justify="left")
         table.add_column("Overheating", justify="center")

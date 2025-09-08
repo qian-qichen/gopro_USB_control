@@ -1,7 +1,11 @@
 build
 dist
+clean-env
 MTC-shooting.md
 MTC-shooting.pdf
 camInfo.csv
 status_and_setting.json
 openapi.json
+
+*.spec
+camera_events.log
