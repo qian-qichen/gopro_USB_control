@@ -5,6 +5,9 @@
     - cam_shutter.py: 快门控制
     - handle_file.py: 提供文件功能
     - cam_watch.py: 监控相机状态
+- frame extract:
+    - markframe.py: 标记需要提取的帧的时间位置
+    - extra_frame.py： 光同步并提取帧
 
 ### 下载配置文件
 - 媒体文件序号按照创建时间从新到旧排序
